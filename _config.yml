@@ -1,0 +1,16 @@
+title: DappDavid Blog
+description: A minimal blog about dApps and tech.
+baseurl: "/blog"
+url: "https://dappdavid.github.io"
+markdown: kramdown
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "post"
