@@ -1,6 +1,6 @@
 # DappDavid Blog
 
-A minimal, accessible Jekyll blog about dApps and tech.
+A minimal blog about the latest trends in tech.
 
 ## Features
 

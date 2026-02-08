@@ -1,10 +1,10 @@
 ---
 title: "The Future of Decentralized Apps"
-date: 2023-10-01
+date: 2024-10-01
 description: "Exploring how dApps are changing the landscape of the internet."
 tags: [blockchain, tech, dapps]
 draft: false
-author: "David"
+author: "dappdavid"
 ---
 
 Decentralized applications (dApps) are applications that run on a P2P network of computers rather than a single computer.
@@ -16,4 +16,6 @@ Decentralized applications (dApps) are applications that run on a P2P network of
 3.  **Incentivized:** Validators of the blockchain are incentivized by rewarding them with cryptographic tokens.
 4.  **Protocol:** The application community must agree on a cryptographic algorithm to show proof of value.
 
-The future looks bright for dApps as they offer transparency, reliability, and flexibility.
+The future looks very bright for dApps as they offer transparency, reliability, and flexibility. 
+
+
