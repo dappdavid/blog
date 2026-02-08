@@ -5,7 +5,8 @@ title: Home
 <div class="home">
   <h1>Latest Articles</h1>
   <ul class="post-list">
-    {% for post in site.articles limit:10 %}
+    {% assign sorted_articles = site.articles | sort: 'date' | reverse %}
+    {% for post in sorted_articles limit:10 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
