@@ -5,7 +5,9 @@ layout: default
   <h1>{{ page.title }}</h1>
   {{ content }}
 
-  {% assign postsByYear = site.articles | group_by_exp:"post", "post.date | date: '%Y'" %}
+  {% assign sorted_articles = site.articles | sort: 'date' | reverse %}
+  {% assign postsByYear = sorted_articles | group_by_exp:"post", "post.date | date: '%Y'" %}
+  {% assign postsByYear = postsByYear | sort: 'name' | reverse %}
   {% for year in postsByYear %}
     <h2>{{ year.name }}</h2>
     <ul class="post-list">
