@@ -1,4 +1,4 @@
-# DappDavid Blog
+# dappdavid's Blog
 
 A minimal blog about the latest trends in tech.
 
